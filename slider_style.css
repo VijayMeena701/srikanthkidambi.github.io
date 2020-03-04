@@ -1,0 +1,106 @@
+.slides-container{
+
+	cursor:default;
+	position:relative;
+	top:0px;
+	left:0px;
+	width:980px;
+	height:380px;
+	overflow:hidden;
+	border-radius: 20px;
+}
+/*jssor slider bullet skin 031 css*/
+.jssorb031 {
+	position:absolute;
+}
+.jssorb031 .i {
+	position:absolute;
+	cursor:pointer;
+	transition: 0.5s;
+}
+.jssorb031 .i .b {
+	fill:#000;
+	fill-opacity:0.6;
+	stroke:#fff;
+	stroke-width:1600;
+	stroke-miterlimit:10;
+	stroke-opacity:0.8;
+	transition: 0.5s;
+}
+.jssorb031 .i:hover .b {
+	fill:orange;
+	fill-opacity:1;
+	stroke:#000;
+	stroke-opacity:1;
+}
+.jssorb031 .i:hover{
+	transform: scale(1.5);
+}
+.jssorb031 .iav .b {
+	fill:#fff;
+	stroke:#000;
+	stroke-width:1600;
+	fill-opacity:.6;
+}
+.jssorb031 .i.idn {
+	opacity:.3;
+}
+/*jssor slider arrow skin 051 css*/
+.jssora051{
+	display:block;
+	position:absolute;
+	cursor:pointer;
+	width:55px;
+	height:55px;
+	top:0px;
+	opacity: 0.2;
+	transform: scale(0.4);
+	transition: 0.5s;
+	background: rgba(0,0,0,0.6);
+	border-radius: 10px;
+}
+.jssora051 .a {
+	fill:none;
+	stroke:#fff;
+	stroke-width:700;
+	stroke-miterlimit:10;
+}
+.jssora051:hover {
+	opacity:1;
+	transform: scale(1);
+}
+.jssora051:hover .a{
+	stroke:orange;
+}
+.jssora051.jssora051dn {
+	opacity:.5;
+}
+.jssora051.jssora051ds {
+	opacity:.3;
+	pointer-events:none;
+}
+
+
+
+
+
+
+.jssorl-004-double-tail-spin img {
+            animation-name: jssorl-004-double-tail-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-004-double-tail-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 031 css*/
+        .jssorb031 {position:absolute;}
+        .jssorb031 .i {position:absolute;cursor:pointer;}
+        .jssorb031 .i .b {fill:#000;fill-opacity:0.6;stroke:#fff;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.8;}
+        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:1;stroke:#000;stroke-opacity:1;}
+        .jssorb031 .iav .b {fill:#fff;stroke:#000;stroke-width:1600;fill-opacity:.6;}
+        .jssorb031 .i.idn {opacity:.3;}
